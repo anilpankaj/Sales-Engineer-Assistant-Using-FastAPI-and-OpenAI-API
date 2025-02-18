@@ -1,7 +1,7 @@
-# Sales Engineer Assistant - FastAPI Project
+# Sales Engineer Assistant - FastAPI and OpenAI API Project
 
 ## Overview
-This project is a **Sales Engineer Assistant** built using **FastAPI**. It automates lead processing, filtering, and email communication using OpenAI APIs. The assistant consolidates datasets, builds queries, and interacts with leads effectively.
+This project is a **Sales Engineer Assistant** built using **FastAPI** and **OpenAI API**. It automates lead processing, filtering, and email communication using OpenAI APIs. The assistant consolidates datasets, builds queries, and interacts with leads effectively.
 
 ## Features
 - **Data Consolidation**: Merges multiple lead datasets into a structured format.
@@ -77,7 +77,7 @@ This project is a **Sales Engineer Assistant** built using **FastAPI**. It autom
 
 2. **Run the FastAPI Server**:
    ```sh
-   uvicorn src.api:app --reload
+   uvicorn main:app --reload
    ```
    - Open API documentation at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
@@ -88,19 +88,11 @@ This project is a **Sales Engineer Assistant** built using **FastAPI**. It autom
 | `POST` | `/process-leads` | Trigger lead processing |
 | `POST` | `/send-emails` | Send emails to filtered leads |
 
-## Environment Variables
-Create a `.env` file and add:
-```
-OPENAI_API_KEY=your_api_key_here
-```
 
 ## Future Enhancements
 - Add more AI-driven insights for lead prioritization.
 - Integrate CRM for lead tracking.
 - Improve query optimization for better lead targeting.
-
-## License
-MIT License
 
 ---
 🔥 **Start automating your sales process today!** 🚀
