@@ -34,8 +34,10 @@ This project is a **Sales Engineer Assistant** built using **FastAPI** and **Ope
 ## Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-repo/sales-engineer-assistant.git
+   create sales-engineer-assistant folder
    cd sales-engineer-assistant
+   git clone https://github.com/anilpankaj/Sales-Engineer-Assistant-Using-FastAPI-and-OpenAI-API.git
+   
    ```
 2. **Create a virtual environment**:
    ```sh
