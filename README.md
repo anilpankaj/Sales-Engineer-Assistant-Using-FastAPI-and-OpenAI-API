@@ -24,9 +24,8 @@ This project is a **Sales Engineer Assistant** built using **FastAPI** and **Ope
 │   ├── query_builder.py        # Builds queries based on lead data
 │   ├── sdr_assistant.py        # Interacts with OpenAI API for email generation
 │   ├── openai_integration.py   # FastAPI routes and endpoints
-│── config.py
-│── 📜 main.py
-│── 📜 Dockerfile 
+│── config.py                   #make sure you have openai api key to put in this
+│── 📜 main.py 
 │── 📜 requirements.txt
 │── 📜 README.md
 ```
